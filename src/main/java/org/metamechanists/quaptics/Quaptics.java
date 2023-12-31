@@ -79,9 +79,11 @@ public final class Quaptics extends JavaPlugin implements SlimefunAddon {
 
         new Metrics(this, BSTATS_ID);
 
+        /*
         if (getConfig().getBoolean("auto-update") && getPluginVersion().startsWith("Build")) {
             GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "Quaptics", "master");
         }
+        */
     }
     @Override
     public void onDisable() {
